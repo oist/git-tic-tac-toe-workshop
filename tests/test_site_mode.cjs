@@ -51,8 +51,7 @@ test('all direct pages load mode before styles and setup-only CSS hides navigati
   for (const selector of ['.stage-strip', '[data-stage-strip]', '.stage-next', '[data-workshop-registration]', '.register-btn']) {
     assert.ok(styles.includes(`html.setup-only ${selector}`), selector);
   }
-  assert.ok(styles.includes('html.setup-only #setup-register-link'));
-  assert.match(fs.readFileSync(path.join(repo, 'docs/setup.html'), 'utf8'), /id="setup-register-link" data-workshop-registration[^>]*>Register your game/);
+  assert.doesNotMatch(fs.readFileSync(path.join(repo, 'docs/setup.html'), 'utf8'), /data-workshop-registration/);
 });
 
 test('root route has a no-JavaScript setup fallback', () => {

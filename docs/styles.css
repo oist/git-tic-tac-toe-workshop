@@ -1702,8 +1702,3 @@ html.setup-only [data-workshop-registration],
 html.setup-only .register-btn {
   display: none !important;
 }
-
-/* Keep the setup landing page's workshop-aware registration action visible. */
-html.setup-only #setup-register-link {
-  display: inline-flex !important;
-}
