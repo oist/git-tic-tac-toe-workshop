@@ -66,8 +66,7 @@ class TestWebGuides(unittest.TestCase):
         }
         self.assertEqual(catalog["defaultWorkshopId"], "2026-11-06-sokedai")
         self.assertEqual({item["id"]: (item["name"], item["date"]) for item in catalog["workshops"]}, expected)
-        self.assertIn('id="setup-register-link" data-workshop-registration', self.setup)
-        self.assertIn('Register your game', self.setup)
+        self.assertNotIn('data-workshop-registration', self.setup)
         for name, html in (("wall", self.index), ("learner", self.guide), ("setup", self.setup)):
             with self.subTest(page=name):
                 header = html[:html.index("</header>")]

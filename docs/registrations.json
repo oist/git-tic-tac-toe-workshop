@@ -65,17 +65,6 @@
       "issueNumber": null,
       "issueUrl": null,
       "migrationSource": "SCDA Training Week legacy entry"
-    },
-    {
-      "workshopId": "2026-11-06-sokedai",
-      "owner": "igorsdub",
-      "repo": "git-tic-tac-toe-capture-20261101-zoom",
-      "repoUrl": "https://github.com/igorsdub/git-tic-tac-toe-capture-20261101-zoom",
-      "playerX": "igorsdub",
-      "playerO": "igorsdub",
-      "issueNumber": 2,
-      "issueUrl": "https://github.com/oist/git-tic-tac-toe-workshop/issues/2",
-      "createdAt": "2026-11-03T01:51:48Z"
     }
   ]
 }
