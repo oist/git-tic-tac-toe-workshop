@@ -10,7 +10,7 @@
 
   // --- Configuration ---
   const CONFIG = {
-    REPO_OWNER: 'igorsdub',
+    REPO_OWNER: 'oist',
     REPO_NAME: 'git-tic-tac-toe-workshop',
     REFRESH_INTERVAL_SEC: 30,
     FETCH_TIMEOUT_MS: 10000,

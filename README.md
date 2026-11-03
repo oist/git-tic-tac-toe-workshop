@@ -24,9 +24,9 @@ The shared event context on the Game Wall, Setup page, and How to play reads eve
 
 | Workshop | Game Wall | Register a pair repository |
 |---|---|---|
-| SCDA Training Week (2026-10-01) | [Game Wall](https://igorsdub.github.io/git-tic-tac-toe-workshop/wall.html?workshop=2026-10-01-scda) | [Registration form](https://github.com/igorsdub/git-tic-tac-toe-workshop/issues/new?template=register-game.yml&workshop_id=2026-10-01-scda) |
-| SOKENDAI (2026-11-06) | [Game Wall](https://igorsdub.github.io/git-tic-tac-toe-workshop/wall.html?workshop=2026-11-06-sokedai) | [Registration form](https://github.com/igorsdub/git-tic-tac-toe-workshop/issues/new?template=register-game.yml&workshop_id=2026-11-06-sokedai) |
-| RIKEN (2026-11-10) | [Game Wall](https://igorsdub.github.io/git-tic-tac-toe-workshop/wall.html?workshop=2026-11-10-riken) | [Registration form](https://github.com/igorsdub/git-tic-tac-toe-workshop/issues/new?template=register-game.yml&workshop_id=2026-11-10-riken) |
+| SCDA Training Week (2026-10-01) | [Game Wall](https://oist.github.io/git-tic-tac-toe-workshop/wall.html?workshop=2026-10-01-scda) | [Registration form](https://github.com/oist/git-tic-tac-toe-workshop/issues/new?template=register-game.yml&workshop_id=2026-10-01-scda) |
+| SOKENDAI (2026-11-06) | [Game Wall](https://oist.github.io/git-tic-tac-toe-workshop/wall.html?workshop=2026-11-06-sokedai) | [Registration form](https://github.com/oist/git-tic-tac-toe-workshop/issues/new?template=register-game.yml&workshop_id=2026-11-06-sokedai) |
+| RIKEN (2026-11-10) | [Game Wall](https://oist.github.io/git-tic-tac-toe-workshop/wall.html?workshop=2026-11-10-riken) | [Registration form](https://github.com/oist/git-tic-tac-toe-workshop/issues/new?template=register-game.yml&workshop_id=2026-11-10-riken) |
 
 ## Staged learner path
 

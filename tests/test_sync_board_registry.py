@@ -212,7 +212,7 @@ class TestGitHubRefreshHelpers(unittest.TestCase):
             update_issue_feedback(17, "Registration accepted.")
         args = call.call_args.args[0]
         self.assertIn("PATCH", args)
-        self.assertIn("repos/igorsdub/git-tic-tac-toe-workshop/issues/comments/456", args)
+        self.assertIn("repos/oist/git-tic-tac-toe-workshop/issues/comments/456", args)
         self.assertTrue(any(arg.startswith("body=") and FEEDBACK_MARKER in arg for arg in args))
 
     def test_feedback_ignores_human_comment_that_copies_marker(self):
@@ -239,7 +239,7 @@ class TestGitHubRefreshHelpers(unittest.TestCase):
             update_issue_feedback(17, "Registration rejected.")
         jq = lookup.call_args.args[0]
         self.assertTrue(any('github-actions[bot]' in arg for arg in jq))
-        self.assertIn("repos/igorsdub/git-tic-tac-toe-workshop/issues/comments/789", call.call_args.args[0])
+        self.assertIn("repos/oist/git-tic-tac-toe-workshop/issues/comments/789", call.call_args.args[0])
 
 
 if __name__ == "__main__":
