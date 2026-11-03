@@ -39,7 +39,7 @@
     const item = document.createElement('li');
     const registration = document.createElement('a');
     registration.setAttribute('data-workshop-registration', '');
-    registration.href = 'https://github.com/igorsdub/git-tic-tac-toe-workshop/issues/new?template=register-game.yml&workshop_id=2026-11-06-sokedai';
+    registration.href = 'https://github.com/oist/git-tic-tac-toe-workshop/issues/new?template=register-game.yml&workshop_id=2026-11-06-sokedai';
     registration.target = '_blank';
     registration.rel = 'noopener noreferrer';
     registration.textContent = 'Register repository';

@@ -20,7 +20,7 @@ from game_wall_parser import (  # noqa: E402
     parse_registration_issue,
 )
 
-REPOSITORY = "igorsdub/git-tic-tac-toe-workshop"
+REPOSITORY = "oist/git-tic-tac-toe-workshop"
 FEEDBACK_MARKER = "<!-- game-wall-registration-feedback -->"
 
 

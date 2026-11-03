@@ -75,6 +75,7 @@ test('bare URL picks the catalog default and shows its track', opts, () => {
   runSetup('', `
     const ok = vis('setup-codespaces') && !vis('setup-archived') && !vis('setup-pending')
       && document.getElementById('setup-workshop').textContent === 'Code Day \\u00b7 6 Nov 2026'
+      && document.getElementById('setup-register-link').getAttribute('href') === 'https://example.test/r'
       && document.querySelector('[data-survey-link]').getAttribute('href') === 'https://example.test/survey';
     document.body.dataset.result = ok ? 'PASS' : 'FAIL';`);
 });

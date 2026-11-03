@@ -66,7 +66,8 @@ class TestWebGuides(unittest.TestCase):
         }
         self.assertEqual(catalog["defaultWorkshopId"], "2026-11-06-sokedai")
         self.assertEqual({item["id"]: (item["name"], item["date"]) for item in catalog["workshops"]}, expected)
-        self.assertNotIn('data-workshop-registration', self.setup)
+        self.assertIn('id="setup-register-link" data-workshop-registration', self.setup)
+        self.assertIn('Register your game', self.setup)
         for name, html in (("wall", self.index), ("learner", self.guide), ("setup", self.setup)):
             with self.subTest(page=name):
                 header = html[:html.index("</header>")]
@@ -87,7 +88,7 @@ class TestWebGuides(unittest.TestCase):
         self.assertNotIn("workshop_id=2026-10-01-scda", first_section)
 
     def test_shared_navigation_and_repository_link(self):
-        repo_url = "https://github.com/igorsdub/git-tic-tac-toe-workshop"
+        repo_url = "https://github.com/oist/git-tic-tac-toe-workshop"
         for name, html in (("wall", self.index), ("setup", self.setup), ("learner", self.guide)):
             with self.subTest(page=name):
                 header = html[:html.index('</header>')]
