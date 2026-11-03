@@ -87,7 +87,7 @@ class TestWebGuides(unittest.TestCase):
         self.assertNotIn("workshop_id=2026-10-01-scda", first_section)
 
     def test_shared_navigation_and_repository_link(self):
-        repo_url = "https://github.com/oist/git-tic-tac-toe-workshop"
+        repo_url = "https://github.com/igorsdub/git-tic-tac-toe-workshop"
         for name, html in (("wall", self.index), ("setup", self.setup), ("learner", self.guide)):
             with self.subTest(page=name):
                 header = html[:html.index('</header>')]
